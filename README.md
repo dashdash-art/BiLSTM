@@ -1,1 +1,3 @@
 # BiLSTM
+### **BiLSTM Model Summary**  
+The **Bidirectional LSTM (BiLSTM)** model was trained to predict soil temperature using past weather data. Unlike a standard LSTM, the BiLSTM processes data in **both forward and backward directions**, capturing long-term dependencies more effectively. The model was trained for **10 epochs** and achieved a **Mean Absolute Error (MAE) of 0.0236** on the validation set, compared to **0.0252 for LSTM**, indicating a slight improvement in prediction accuracy. The **validation loss (0.0044)** remained consistent with the LSTM model, confirming stable performance. Overall, **BiLSTM marginally outperformed LSTM** in accuracy, making it a suitable choice for temperature forecasting. 🚀
